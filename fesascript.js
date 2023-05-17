@@ -3,7 +3,7 @@ const image360 = document.getElementById('image360');
   let currentImage = 1;
 
   // Mengambil data dari file JSON
-  fetch('https://cdn.jsdelivr.net/gh/fesaone/fesaone360@main/fesaimages.json')
+  fetch('https://raw.githubusercontent.com/fesaone/fesaone360/main/fesaimages.json')
     .then(response => response.json())
     .then(data => {
       const images = data.images;
